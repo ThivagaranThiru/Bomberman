@@ -3,7 +3,7 @@
 
 Le projet consiste en la réalisation d'un clone du célèbre bomberman multijoueurs en réseau.
 
-Le projet permert  d'héberger une partie, et d'y participer et de se connecter à une partie distante. Ce projet est développer en C sous GNU/Linux avec les librairies suivantes : libC, Pthreads, SDL, SDL_TTF, SDL_Image. Et elle possède un seul exécutable (client/serveur) .
+Le projet permert  d'héberger une partie, et d'y participer et de se connecter à une partie distante. Ce projet est développer en C sous GNU/Linux avec les librairies suivantes : libC, Pthreads, Socket, Select, SDL, SDL_TTF, SDL_Image. Et elle possède un seul exécutable (client/serveur) .
 
 Principe du jeu :
 
