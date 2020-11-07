@@ -3,7 +3,7 @@
 
 Le projet consiste en la réalisation d'un clone du célèbre bomberman multijoueurs en réseau.
 
-Le projet permert  d'héberger une partie, et d'y participer et de se connecter à une partie distante. Le principe est que le joueur manipule un personnage se déplaçant sur une carte en deux dimensions faite de murs plus ou moins destructibles (cela va du mur destructible en une/-deux/... explosion, explosions, jusqu’au mur indestructible). Le but pour chacun des joueurs est d’éliminer le joueur adverse en posant des bombes. Chaque personnage ne peut poser qu’une bombe à la fois et doit attendre que celle-ci aie explosé pour pouvoir en poser une autre. Un joueur est éliminé quand il est pris dans le souffle d’une bombe. Une bombe met un certain temps à exploser.
+Le projet permert  d'héberger une partie, et d'y participer et de se connecter à une partie distante. Le principe est que le joueur manipule un personnage se déplaçant sur une carte en deux dimensions faite de murs plus ou moins destructibles (cela va du mur destructible en une/-deux/... explosion, explosions, jusqu’au mur indestructible). Le but pour chacun des joueurs est d’éliminer le joueur adverse en posant des bombes. Un joueur est éliminé quand il est pris dans le souffle d’une bombe. Une bombe met un certain temps à exploser.
 
 Le projet est développer en C sous GNU/Linux avec les librairies suivantes : libC, Pthreads, Socket, Select, SDL, SDL_TTF, SDL_Image. Et elle possède un seul exécutable (client/serveur) .
 
