@@ -1,11 +1,11 @@
 # Bomberman
 
 
-Le projet consiste en la réalisation d'un clone du célèbre bomberman multijoueurs en réseau.
+Le projet consiste en la réalisation d'un clone du célèbre jeu Bomberman multijoueurs en réseau.
 
 Le projet permert  d'héberger une partie, et d'y participer et de se connecter à une partie distante. Le principe est que le joueur manipule un personnage se déplaçant sur une carte en deux dimensions faite de murs plus ou moins destructibles (cela va du mur destructible en une/-deux/... explosion, explosions, jusqu’au mur indestructible). Le but pour chacun des joueurs est d’éliminer le joueur adverse en posant des bombes. Un joueur est éliminé quand il est pris dans le souffle d’une bombe. Une bombe met un certain temps à exploser.
 
-Le projet est développer en C sous GNU/Linux avec les librairies suivantes : libC, Pthreads, Socket, Select, SDL, SDL_TTF, SDL_Image. Et elle possède un seul exécutable (client/serveur) .
+Le projet est développer en C sous GNU/Linux et elle possède un seul exécutable (client/serveur) .
 
 Principe du jeu :
 
@@ -23,3 +23,4 @@ Principe du jeu :
  
 Le projet est basé sur un protocole entièrement binaire (par opposition aux protocoles "textes"). Cela signifie que des structures de données seront directement échangées, plutôt que des commandes textuelles avec paramètres.
  
+Technologies utilisées : libC, Pthreads, Socket, Select, SDL, SDL_TTF, SDL_Image, Sublime Text.
